@@ -162,10 +162,10 @@ Intended contents: the PubChem-derived input CSV, the prebuilt `pubchem_idx/` in
 
 ```
 erg_v2.py        fingerprint (Python reference), fuzzy expansion, CLI
-erg_index.py     sharded index: build / info / search   (add to the repo)
+erg_index.py     sharded index: build / info / search   
 cpp/             C++ kernel (erg_kernel.cpp, CMakeLists.txt, build.bat)
-test_erg_v2.py, test_cpp.py, test_index.py              (test_index.py: add to the repo)
-profile_erg.py, bench_parallel.py, bench_search.py      (bench_search.py: add to the repo)
+test_erg_v2.py, test_cpp.py, test_index.py              
+profile_erg.py, bench_parallel.py, bench_search.py      
 erg_calc_fragments_topo.py   original v1 script, kept for reference
 ```
 
