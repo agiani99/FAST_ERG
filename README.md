@@ -155,7 +155,7 @@ Extrapolating the build rate to a 6-billion-molecule library is roughly 1.5–2.
 
 ## Data
 
-Large files are not stored in this repository. They are archived on Zenodo: **http:://DOI:10.5281/zenodo.23366793**.
+Large files are not stored in this repository. They are archived on Zenodo: **´http:://DOI:10.5281/zenodo.23366793´**.
 Intended contents: the PubChem-derived input CSV, the prebuilt `pubchem_idx/` index (≈ 41.5 GB), and the ChEMBL parquet regenerated with v2.
 
 ## Repository layout
