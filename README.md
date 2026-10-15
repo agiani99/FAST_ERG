@@ -31,10 +31,6 @@ Each molecule is reduced to *sites*; every pair of sites is binned by the shorte
 
 ### Differences from the original script (`erg_calc_fragments_topo.py`, "v1")
 
-1. **HD was never assigned.** `HA` consumed every N/O/S first and the flip-flop SMARTS `[#7,#8][H]` needs explicit hydrogens, so all HD columns were zero. v2 uses the total H count, with flip-flop sites as above.
-2. **Pairs were silently dropped.** The key was built with an alphabetical test (`f1 <= f2`), so `AR_HA`, `AR_HD` and `MINUS_PLUS` never matched a column. v2 uses a fixed 6×6 pair-type lookup.
-3. RDKit `fr_*` fragment descriptors and the MW / LogP / HBD / HBA columns are not part of v2.
-
 Column names and order are unchanged, but v1 values are **not** comparable with v2 for any column involving HA or HD
 (columns for HY / AR / PLUS / MINUS-only pairs agree to float32 precision).
 
